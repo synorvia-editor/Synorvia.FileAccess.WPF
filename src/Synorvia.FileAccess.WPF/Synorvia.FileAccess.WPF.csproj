@@ -33,9 +33,8 @@
       </None>
     </ItemGroup>
 
-    <!-- Waiting on a package: Synorvia.FileAccess.Contracts is not published yet. -->
     <ItemGroup>
-        <ProjectReference Include="..\..\..\Synorvia.FileAccess.Contracts\src\Synorvia.FileAccess.Contracts\Synorvia.FileAccess.Contracts-dev.csproj" />
+        <PackageReference Include="Synorvia.FileAccess.Contracts" Version="2.0.0.3" />
     </ItemGroup>
 
 </Project>
