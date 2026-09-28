@@ -17,7 +17,7 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-      PROJECT_NAME: MDD4All.FileAccess.WPF
+      PROJECT_NAME: Synorvia.FileAccess.WPF
 
     steps:
     - name: Checkout source code

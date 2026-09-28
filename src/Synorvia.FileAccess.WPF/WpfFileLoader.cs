@@ -1,10 +1,10 @@
-﻿using MDD4All.FileAccess.Contracts;
+﻿using Synorvia.FileAccess.Contracts;
 using Microsoft.Win32;
 using System;
 using System.Diagnostics;
 using System.IO;
 
-namespace MDD4All.FileAccess.WPF
+namespace Synorvia.FileAccess.WPF
 {
     public class WpfFileLoader : IFileLoader
     {

@@ -4,12 +4,7 @@
         <TargetFramework>net9.0-windows</TargetFramework>
         <UseWPF>true</UseWPF>
         <EnableWindowsTargeting>true</EnableWindowsTargeting>
-        <SignAssembly>True</SignAssembly>
-        <AssemblyOriginatorKeyFile>MDD4All_Github.snk</AssemblyOriginatorKeyFile>
-        <!-- The id on nuget.org belongs to oalt, who published 2.0.0.3 from his own
-             repository. This fork carries changes of ours, so it goes out under a name of
-             its own. The library, the author and the copyright stay his. -->
-        <PackageId>Synorvia.FileAccess.WPF</PackageId>
+        <!-- Forked from oalt's MDD4All.FileAccess.WPF and renamed, so the two never meet in one build. Author and copyright stay his. -->
         <Version>2.0.0.0</Version>
         <Company>MDD4All.de</Company>
         <Description>WPF implementation of FileAccess contracts using IoC design pattern.</Description>
@@ -38,12 +33,9 @@
       </None>
     </ItemGroup>
 
-    <!-- Waiting on a package. 2.0.1.4 is the newest on nuget.org and it is older than
-         oalt's own dev branch: IFileSaver there takes an initial directory and a title,
-         which this code passes. Building against the published one fails. He would have to
-         publish the contracts again before a package can be built from here. -->
+    <!-- Waiting on a package: Synorvia.FileAccess.Contracts is not published yet. -->
     <ItemGroup>
-        <PackageReference Include="MDD4All.FileAccess.Contracts" Version="2.0.1.4" />
+        <ProjectReference Include="..\..\..\Synorvia.FileAccess.Contracts\src\Synorvia.FileAccess.Contracts\Synorvia.FileAccess.Contracts-dev.csproj" />
     </ItemGroup>
 
 </Project>

@@ -4,11 +4,15 @@
         <TargetFramework>net9.0-windows</TargetFramework>
         <AssemblyName>$(MSBuildProjectName.Replace("-dev", ""))</AssemblyName>
         <RootNamespace>$(MSBuildProjectName.Replace("-dev", ""))</RootNamespace>
+        <!-- oalt's, as in his package project; the app is built from this file. -->
+        <Authors>Dr. Oliver Alt</Authors>
+        <Company>MDD4All.de</Company>
+        <Copyright>(c) MDD4All.de</Copyright>
         <UseWPF>true</UseWPF>
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\..\MDD4All.FileAccess.Contracts\src\MDD4All.FileAccess.Contracts\MDD4All.FileAccess.Contracts-dev.csproj" />
+        <ProjectReference Include="..\..\..\Synorvia.FileAccess.Contracts\src\Synorvia.FileAccess.Contracts\Synorvia.FileAccess.Contracts-dev.csproj" />
     </ItemGroup>
 
 </Project>

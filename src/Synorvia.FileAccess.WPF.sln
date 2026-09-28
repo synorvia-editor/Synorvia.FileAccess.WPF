@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDD4All.FileAccess.WPF", "MDD4All.FileAccess.WPF\MDD4All.FileAccess.WPF.csproj", "{E4E3E30F-9131-4482-8561-992ABC474B57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synorvia.FileAccess.WPF", "Synorvia.FileAccess.WPF\Synorvia.FileAccess.WPF.csproj", "{E4E3E30F-9131-4482-8561-992ABC474B57}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projektmappenelemente", "Projektmappenelemente", "{7ADBC73E-DF9A-4418-AD0B-995BA7DCAD5E}"
 	ProjectSection(SolutionItems) = preProject
